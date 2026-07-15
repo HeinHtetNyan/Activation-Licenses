@@ -49,8 +49,8 @@ export default function Layout() {
       <aside className="w-60 flex-shrink-0 flex flex-col h-screen bg-surface-container-low border-r border-outline-variant z-50">
         <div className="px-4 py-4 border-b border-outline-variant/40">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-primary-container flex items-center justify-center flex-shrink-0">
-              <span className="msym msym-fill text-[16px]" style={{ color: '#eeefff' }}>verified_user</span>
+            <div className="w-8 h-8 rounded-lg bg-primary-container flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/logo-512.png" alt="Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h1 className="text-sm font-bold text-on-surface leading-tight">Saw Yun LLC</h1>

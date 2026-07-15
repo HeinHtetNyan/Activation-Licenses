@@ -44,11 +44,11 @@ export default function LoginPage() {
           <div
             style={{
               display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-              width: 56, height: 56, borderRadius: 16, background: '#2563eb', marginBottom: 20,
+              width: 56, height: 56, borderRadius: 16, overflow: 'hidden', marginBottom: 20,
               boxShadow: '0 0 0 8px rgba(37,99,235,0.12), 0 8px 24px rgba(37,99,235,0.3)',
             }}
           >
-            <span className="msym msym-fill" style={{ fontSize: 28, color: '#eeefff' }}>deployed_code</span>
+            <img src="/logo-512.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           </div>
           <h1 style={{ fontSize: 22, fontWeight: 800, color: '#e0e3e5', letterSpacing: '-0.5px', margin: '0 0 4px' }}>
             Saw Yun LLC
